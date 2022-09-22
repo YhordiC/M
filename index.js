@@ -16,9 +16,9 @@ const btnEl =get_element_ID('btn');
 
 let score=JSON.parse(localStorage.getItem('score'));
 
-if(!score){
+/*if(!score){
     score=0;
-}
+}*/
 if(score <=0){ // si se acaban las oportunidades =0, sale la ventana de game over
     gameOverEl.style.display="block";
      game= false;
