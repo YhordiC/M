@@ -9,7 +9,9 @@ body{
     background-color: yellow;
     font-family: cursive;
 }
-
+body img{
+    display: none;
+}
 .form{
     background-color: white;
     padding: 20px;
